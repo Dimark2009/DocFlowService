@@ -26,7 +26,7 @@ async def handle_webhook(request):
 
 # Set the webhook URL
 async def set_webhook():
-    webhook_url = f"https://your_domain.com/{BOT_TOKEN}"  # Replace with your actual webhook URL
+    webhook_url = f"https://docflowservice.onrender.com/{BOT_TOKEN}"  # Replace with your actual webhook URL
     bot.remove_webhook()
     bot.set_webhook(url=webhook_url)
 
